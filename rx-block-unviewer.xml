@@ -6,6 +6,7 @@
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
+	  <scheme name="content"/>
     </intent-filter>
   </prescription>
   
@@ -15,6 +16,7 @@
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
+	  <scheme name="content"/>
     </intent-filter>
   </prescription>
 
@@ -24,6 +26,7 @@
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
+	  <scheme name="content"/>
     </intent-filter>
   </prescription>
   
@@ -33,6 +36,7 @@
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
+	  <scheme name="content"/>
     </intent-filter>
   </prescription>
 
@@ -42,6 +46,7 @@
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
+	  <scheme name="content"/>
     </intent-filter>
   </prescription>
 </prescriptions>

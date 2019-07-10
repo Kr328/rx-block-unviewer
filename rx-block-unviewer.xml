@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+  <!-- TIM[发送给好友] -->
+  <prescription type="activity" package="com.tencent.tim" class="com.tencent.mobileqq.activity.JumpActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+    </intent-filter>
+  </prescription>
+  
+  <!-- 微信[分享到朋友圈] -->
+  <prescription type="activity" package="com.tencent.mm" class="com.tencent.mm.ui.tools.ShareScreenToTimeLineUI" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+    </intent-filter>
+  </prescription>
+
+  <!-- 微信[分享给朋友] -->
+  <prescription type="activity" package="com.tencent.mm" class="com.tencent.mm.ui.tools.ShareScreenImgUI" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+    </intent-filter>
+  </prescription>
+  
+  <!-- 支付宝[支付宝] -->
+  <prescription type="activity" package="com.eg.android.AlipayGphone" class="com.alipay.mobile.quinox.splash.ShareDispenseActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+    </intent-filter>
+  </prescription>
+
+  <!-- 支付宝[支付宝二维码识别] -->
+  <prescription type="activity" package="com.eg.android.AlipayGphone" class="com.alipay.mobile.quinox.splash.ShareScanQRDispenseActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+    </intent-filter>
+  </prescription>
+</prescriptions>

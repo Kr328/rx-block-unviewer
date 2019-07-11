@@ -81,4 +81,19 @@
 	  <type name="application/octet-stream" />
     </intent-filter>
   </prescription>
+
+  <!-- QQ[发送给好友] -->
+  <prescription type="activity" package="com.tencent.mobileqq" class="com.tencent.mobileqq.activity.JumpActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="image/*" />
+	  <type name="video/*" />
+	  <type name="audio/*" />
+	  <type name="application/*" />
+	  <type name="text/*" />
+    </intent-filter>
+  </prescription>  
 </prescriptions>

@@ -180,4 +180,15 @@
 	  <type name="audio/*" />
     </intent-filter>
   </prescription>
+	
+  <!-- 带壳截图 Pro -->
+  <prescription type="activity" package="sulisong.ShelledPro.Screenshots" class="com.androlua.Main" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="image/*" />
+    </intent-filter>
+  </prescription>
 </prescriptions>

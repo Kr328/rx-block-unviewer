@@ -167,4 +167,17 @@
 	  <type name="application/*" />
     </intent-filter>
   </prescription>
+
+  <!-- Google 文件极客[媒体查看] -->
+  <prescription type="activity" package="com.google.android.apps.nbu.files" class="com.google.android.apps.nbu.files.gateway.preview.PreviewActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="image/*" />
+	  <type name="video/*" />
+	  <type name="audio/*" />
+    </intent-filter>
+  </prescription>
 </prescriptions>

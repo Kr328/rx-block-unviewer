@@ -156,4 +156,15 @@
 	  <type name="text/*" />
     </intent-filter>
   </prescription>
+	
+  <!-- 安装程序 -->
+  <prescription type="activity" package="com.google.android.packageinstaller" class="com.android.packageinstaller.InstallStart" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="application/*" />
+    </intent-filter>
+  </prescription>
 </prescriptions>

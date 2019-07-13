@@ -81,7 +81,18 @@
 	  <type name="application/octet-stream" />
     </intent-filter>
   </prescription>
-
+	
+  <!-- 安装程序 -->
+  <prescription type="activity" package="com.google.android.packageinstaller" class="com.android.packageinstaller.InstallStart" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="application/*" />
+    </intent-filter>
+  </prescription>
+	
   <!-- QQ[发送给好友] -->
   <prescription type="activity" package="com.tencent.mobileqq" class="com.tencent.mobileqq.activity.JumpActivity" sender="other">
     <intent-filter>
@@ -154,17 +165,6 @@
 	  <type name="audio/*" />
 	  <type name="application/*" />
 	  <type name="text/*" />
-    </intent-filter>
-  </prescription>
-	
-  <!-- 安装程序 -->
-  <prescription type="activity" package="com.google.android.packageinstaller" class="com.android.packageinstaller.InstallStart" sender="other">
-    <intent-filter>
-      <action name="android.intent.action.VIEW"/>
-      <cat name="android.intent.category.DEFAULT"/>
-      <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="application/*" />
     </intent-filter>
   </prescription>
 

@@ -202,4 +202,24 @@
 	  <type name="audio/*" />
     </intent-filter>
   </prescription>
+	  
+<!-- Kiwi Browser[text查看] -->
+  <prescription type="activity" package="com.kiwibrowser.browser" class="com.google.android.apps.chrome.IntentDispatcher" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="text/*" />
+    </intent-filter>
+  </prescription>
+  <prescription type="activity" package="com.kiwibrowser.browser" class="com.google.android.apps.chrome.VrIntentDispatcher" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="text/*" />
+    </intent-filter>
+  </prescription>
 </prescriptions>

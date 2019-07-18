@@ -16,3 +16,5 @@
   * 百度网盘
   * 文件极客
   * 带壳截图
+  * Chrome
+  * Kiwi Browser

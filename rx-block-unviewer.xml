@@ -286,4 +286,40 @@
 	  <type name="audio/*" />
     </intent-filter>
   </prescription>
+<!-- QQ邮箱[媒体编辑2] -->
+  <prescription type="activity" package="com.tencent.androidqqmail" class="com.tencent.qqmail.launcher.third.LaunchComposeMail" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.EDIT"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="image/*" />
+	  <type name="video/*" />
+	  <type name="audio/*" />
+    </intent-filter>
+  </prescription>
+<!-- QQ邮箱[媒体编辑2] -->
+  <prescription type="activity" package="com.tencent.androidqqmail" class="com.tencent.qqmail.launcher.third.LaunchComposeMail" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.EDIT"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="image/*" />
+	  <type name="video/*" />
+	  <type name="audio/*" />
+    </intent-filter>
+  </prescription>
+<!-- office suite[媒体编辑] -->
+  <prescription type="activity" package="com.mobisystems.office" class="com.mobisystems.libfilemng.FcOfficeFiles" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.EDIT"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="image/*" />
+	  <type name="video/*" />
+	  <type name="audio/*" />
+    </intent-filter>
+  </prescription>
 </prescriptions>

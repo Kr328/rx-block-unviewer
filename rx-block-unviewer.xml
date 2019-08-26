@@ -322,4 +322,15 @@
 	  <type name="audio/*" />
     </intent-filter>
   </prescription>
+
+   <!-- CAD快速看图 -->
+  <prescription type="activity" package="com.glodon.drawingexplorer" class="com.glodon.drawingexplorer.activity.ExternalOpenDwgAuthActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="image/*" />
+    </intent-filter>
+  </prescription>
 </prescriptions>

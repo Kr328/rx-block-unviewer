@@ -342,4 +342,15 @@
 	  <type name="application/*" />
     </intent-filter>
   </prescription>
+	
+  <!-- Office Suite(压缩文件) -->
+  <prescription type="activity" package="com.mobisystems.office" class="com.mobisystems.office.files.FileBrowser" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="application/*" />
+    </intent-filter>
+  </prescription>
 </prescriptions>

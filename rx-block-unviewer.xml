@@ -333,4 +333,13 @@
 	  <type name="image/*" />
     </intent-filter>
   </prescription>
+  <prescription type="activity" package="com.glodon.drawingexplorer" class="com.glodon.drawingexplorer.activity.ExternalOpenZipAuthActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="application/*" />
+    </intent-filter>
+  </prescription>
 </prescriptions>

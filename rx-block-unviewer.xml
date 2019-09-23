@@ -6,27 +6,27 @@
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
-	  <type name="application/*" />
-	  <type name="text/*" />
+      <scheme name="content"/>
+      <type name="image/*" />
+      <type name="video/*" />
+      <type name="audio/*" />
+      <type name="application/*" />
+      <type name="text/*" />
     </intent-filter>
   </prescription>
-  
+
   <!-- 微信[分享到朋友圈] -->
   <prescription type="activity" package="com.tencent.mm" class="com.tencent.mm.ui.tools.ShareScreenToTimeLineUI" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
-	  <type name="application/*" />
-	  <type name="text/*" />
+      <scheme name="content"/>
+      <type name="image/*" />
+      <type name="video/*" />
+      <type name="audio/*" />
+      <type name="application/*" />
+      <type name="text/*" />
     </intent-filter>
   </prescription>
 
@@ -36,27 +36,27 @@
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
-	  <type name="application/*" />
-	  <type name="text/*" />
+      <scheme name="content"/>
+      <type name="image/*" />
+      <type name="video/*" />
+      <type name="audio/*" />
+      <type name="application/*" />
+      <type name="text/*" />
     </intent-filter>
   </prescription>
-  
+
   <!-- 支付宝[支付宝] -->
   <prescription type="activity" package="com.eg.android.AlipayGphone" class="com.alipay.mobile.quinox.splash.ShareDispenseActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
-	  <type name="application/*" />
-	  <type name="text/*" />
+      <scheme name="content"/>
+      <type name="image/*" />
+      <type name="video/*" />
+      <type name="audio/*" />
+      <type name="application/*" />
+      <type name="text/*" />
     </intent-filter>
   </prescription>
 
@@ -66,34 +66,34 @@
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
+      <scheme name="content"/>
+      <type name="image/*" />
     </intent-filter>
   </prescription>
-  
+
   <!-- ZArchive(针对未知文件) -->
   <prescription type="activity" package="ru.zdevs.zarchiver" class="ru.zdevs.zarchiver.ZArchiver" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="application/octet-stream" />
+      <scheme name="content"/>
+      <type name="application/octet-stream" />
     </intent-filter>
   </prescription>
-	
+
   <!-- QQ[发送给好友] -->
   <prescription type="activity" package="com.tencent.mobileqq" class="com.tencent.mobileqq.activity.JumpActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
-	  <type name="application/*" />
-	  <type name="text/*" />
+      <scheme name="content"/>
+      <type name="image/*" />
+      <type name="video/*" />
+      <type name="audio/*" />
+      <type name="application/*" />
+      <type name="text/*" />
     </intent-filter>
   </prescription>
   <prescription type="activity" package="com.tencent.qqlite" class="com.tencent.mobileqq.activity.JumpActivity" sender="other">
@@ -101,28 +101,28 @@
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
-	  <type name="application/*" />
-	  <type name="text/*" />
+      <scheme name="content"/>
+      <type name="image/*" />
+      <type name="video/*" />
+      <type name="audio/*" />
+      <type name="application/*" />
+      <type name="text/*" />
     </intent-filter>
   </prescription>
-	
+
   <!-- QQ邮箱[通过邮件发送] -->
   <prescription type="activity" package="com.tencent.androidqqmail" class="com.tencent.qqmail.launcher.third.LaunchComposeMail" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
-	  <type name="application/*" />
-	  <type name="text/*" />
-	  <type name="message/*" />
+      <scheme name="content"/>
+      <type name="image/*" />
+      <type name="video/*" />
+      <type name="audio/*" />
+      <type name="application/*" />
+      <type name="text/*" />
+      <type name="message/*" />
     </intent-filter>
   </prescription>
 
@@ -132,13 +132,13 @@
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
-	  <type name="application/*" />
-	  <type name="text/*" />
-	  <type name="message/*" />
+      <scheme name="content"/>
+      <type name="image/*" />
+      <type name="video/*" />
+      <type name="audio/*" />
+      <type name="application/*" />
+      <type name="text/*" />
+      <type name="message/*" />
     </intent-filter>
   </prescription>
 
@@ -148,13 +148,13 @@
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
-	  <type name="application/*" />
-	  <type name="text/*" />
-	  <type name="message/*" />
+      <scheme name="content"/>
+      <type name="image/*" />
+      <type name="video/*" />
+      <type name="audio/*" />
+      <type name="application/*" />
+      <type name="text/*" />
+      <type name="message/*" />
     </intent-filter>
   </prescription>
 
@@ -164,12 +164,12 @@
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
-	  <type name="application/*" />
-	  <type name="text/*" />
+      <scheme name="content"/>
+      <type name="image/*" />
+      <type name="video/*" />
+      <type name="audio/*" />
+      <type name="application/*" />
+      <type name="text/*" />
     </intent-filter>
   </prescription>
 
@@ -179,32 +179,32 @@
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
+      <scheme name="content"/>
+      <type name="image/*" />
+      <type name="video/*" />
+      <type name="audio/*" />
     </intent-filter>
   </prescription>
-	
+
   <!-- 带壳截图 Pro -->
   <prescription type="activity" package="sulisong.ShelledPro.Screenshots" class="com.androlua.Main" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
+      <scheme name="content"/>
+      <type name="image/*" />
     </intent-filter>
   </prescription>
-	
-  <!-- chrome[媒体查看] -->
+
+  <!-- Chrome[媒体查看] -->
   <prescription type="activity" package="com.android.chrome" class="com.google.android.apps.chrome.IntentDispatcher" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="text/*" />
+      <scheme name="content"/>
+      <type name="text/*" />
     </intent-filter>
   </prescription>
   <prescription type="activity" package="com.android.chrome" class="org.chromium.chrome.browser.media.MediaLauncherActivity" sender="other">
@@ -212,21 +212,21 @@
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
+      <scheme name="content"/>
+      <type name="image/*" />
+      <type name="video/*" />
+      <type name="audio/*" />
     </intent-filter>
   </prescription>
-	  
-<!-- Kiwi Browser[text查看] -->
+
+  <!-- Kiwi Browser[Text查看] -->
   <prescription type="activity" package="com.kiwibrowser.browser" class="com.google.android.apps.chrome.IntentDispatcher" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="text/*" />
+      <scheme name="content"/>
+      <type name="text/*" />
     </intent-filter>
   </prescription>
   <prescription type="activity" package="com.kiwibrowser.browser" class="com.google.android.apps.chrome.VrIntentDispatcher" sender="other">
@@ -234,114 +234,94 @@
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="text/*" />
+      <scheme name="content"/>
+      <type name="text/*" />
     </intent-filter>
   </prescription>
-	
+
   <!-- Rar(针对未知文件) -->
   <prescription type="activity" package="com.rarlab.rar" class="com.rarlab.rar.MainActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="application/octet-stream" />
+      <scheme name="content"/>
+      <type name="application/octet-stream" />
     </intent-filter>
   </prescription>
-	
-  <!-- OfficeSuite[媒体查看] -->
-  <prescription type="activity" package="com.mobisystems.office" class="com.mobisystems.libfilemng.FcOfficeFiles" sender="other">
-    <intent-filter>
-      <action name="android.intent.action.VIEW"/>
-      <cat name="android.intent.category.DEFAULT"/>
-      <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
-    </intent-filter>
-  </prescription>
-<!-- QQ邮箱[媒体编辑1] -->
+
+  <!-- QQ邮箱[媒体编辑1] -->
   <prescription type="activity" package="com.tencent.androidqqmail" class="com.tencent.qqmail.launcher.third.LaunchFtnUpload" sender="other">
     <intent-filter>
       <action name="android.intent.action.EDIT"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
+      <scheme name="content"/>
+      <type name="image/*" />
+      <type name="video/*" />
+      <type name="audio/*" />
     </intent-filter>
   </prescription>
-<!-- QQ邮箱[媒体编辑2] -->
+  <!-- QQ邮箱[媒体编辑2] -->
   <prescription type="activity" package="com.tencent.androidqqmail" class="com.tencent.qqmail.launcher.third.LaunchComposeMail" sender="other">
     <intent-filter>
       <action name="android.intent.action.EDIT"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
+      <scheme name="content"/>
+      <type name="image/*" />
+      <type name="video/*" />
+      <type name="audio/*" />
     </intent-filter>
   </prescription>
-<!-- QQ邮箱[媒体编辑2] -->
-  <prescription type="activity" package="com.tencent.androidqqmail" class="com.tencent.qqmail.launcher.third.LaunchComposeMail" sender="other">
-    <intent-filter>
-      <action name="android.intent.action.EDIT"/>
-      <cat name="android.intent.category.DEFAULT"/>
-      <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
-    </intent-filter>
-  </prescription>
-<!-- QQ邮箱[媒体编辑2] -->
-  <prescription type="activity" package="com.tencent.androidqqmail" class="com.tencent.qqmail.launcher.third.LaunchComposeMail" sender="other">
-    <intent-filter>
-      <action name="android.intent.action.EDIT"/>
-      <cat name="android.intent.category.DEFAULT"/>
-      <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
-    </intent-filter>
-  </prescription>
-<!-- office suite[媒体编辑] -->
+
+  <!-- Office Suite[媒体编辑] -->
   <prescription type="activity" package="com.mobisystems.office" class="com.mobisystems.libfilemng.FcOfficeFiles" sender="other">
     <intent-filter>
       <action name="android.intent.action.EDIT"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
+      <scheme name="content"/>
+      <type name="image/*" />
+      <type name="video/*" />
+      <type name="audio/*" />
     </intent-filter>
   </prescription>
 
-   <!-- CAD快速看图 -->
+  <!-- CAD快速看图 -->
   <prescription type="activity" package="com.glodon.drawingexplorer" class="com.glodon.drawingexplorer.activity.ExternalOpenZipAuthActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="application/*" />
+      <scheme name="content"/>
+      <type name="application/*" />
     </intent-filter>
   </prescription>
-	
-  <!-- Office Suite(压缩文件) -->
+
+  <!-- Office Suite[压缩文件] -->
   <prescription type="activity" package="com.mobisystems.office" class="com.mobisystems.office.files.FileBrowser" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="application/*" />
+      <scheme name="content"/>
+      <type name="application/*" />
+    </intent-filter>
+  </prescription>
+
+  <!-- 知到 -->
+  <prescription type="activity" package="com.able.wisdomtree" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+      <scheme name="content"/>
+      <type name="application/*" />
+      <type name="text/*" />
+      <type name="image/*" />
+      <type name="audio/*" />
+      <type name="video/*" />
     </intent-filter>
   </prescription>
 </prescriptions>

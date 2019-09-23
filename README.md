@@ -19,3 +19,4 @@
   * Chrome
   * Kiwi Browser
   * OfficeSuite
+  * 知到

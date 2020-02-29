@@ -20,3 +20,4 @@
   * Kiwi Browser
   * OfficeSuite
   * 知到
+  * 学习通

@@ -310,18 +310,25 @@
     </intent-filter>
   </prescription>
 
-  <!-- 知到 -->
+  <!-- 知到[全部] -->
   <prescription type="activity" package="com.able.wisdomtree" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
       <scheme name="content"/>
-      <type name="application/*" />
-      <type name="text/*" />
-      <type name="image/*" />
-      <type name="audio/*" />
-      <type name="video/*" />
+      <type name="*/*" />
+    </intent-filter>
+  </prescription>
+
+  <!-- 学习通[全部] -->
+  <prescription type="activity" package="com.chaoxing.mobile" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="file" />
+      <scheme name="content" />
+      <type name="*/*" />
     </intent-filter>
   </prescription>
 </prescriptions>
